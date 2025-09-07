@@ -98,7 +98,7 @@ export default function FAQSection() {
             Sık Sorulan Sorular
           </h2>
           <p className="text-lg font-body text-likya-text-dark max-w-3xl mx-auto">
-            Antalya'da sunduğumuz catering hizmetleri hakkında en çok merak edilen soruların detaylı cevapları. 
+            Antalya&apos;da sunduğumuz catering hizmetleri hakkında en çok merak edilen soruların detaylı cevapları. 
           </p>
         </div>
 

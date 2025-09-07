@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
     name: "Mehmet Demir",
     role: "CEO",
     company: "Demir Holding",
-    content: "Düğünümüzde Likya Catering'i tercih ettik ve kesinlikle doğru karar verdik. Menü planlamasından sunuma kadar her şey mükemmeldi. Misafirlerimiz hala yemeklerden bahsediyor!",
+    content: "Düğünümüzde Likya Catering&apos;i tercih ettik ve kesinlikle doğru karar verdik. Menü planlamasından sunuma kadar her şey mükemmeldi. Misafirlerimiz hala yemeklerden bahsediyor!",
     rating: 5,
     image: "/api/placeholder/100/100/00CED1/FFFFFF?text=MD",
     event: "Düğün Töreni"
@@ -40,7 +40,7 @@ const testimonials: Testimonial[] = [
     name: "Fatma Kaya",
     role: "Marketing Director",
     company: "Global Brands",
-    content: "Kurumsal etkinliğimizde Likya Catering'in sunduğu hizmet kalitesi beklentilerimizin çok üzerindeydi. Özellikle diyet kısıtlamaları olan misafirlerimiz için hazırladıkları özel menüler çok takdir edildi.",
+    content: "Kurumsal etkinliğimizde Likya Catering&apos;in sunduğu hizmet kalitesi beklentilerimizin çok üzerindeydi. Özellikle diyet kısıtlamaları olan misafirlerimiz için hazırladıkları özel menüler çok takdir edildi.",
     rating: 5,
     image: "/api/placeholder/100/100/FF69B4/FFFFFF?text=FK",
     event: "Kurumsal Etkinlik"
