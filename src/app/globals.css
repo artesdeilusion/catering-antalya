@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+:root {
+  /* Likya Catering Brand Colors - Light Black Theme */
+  --likya-primary: #2C2C2C;      /* Ana Renk - Light Black */
+  --likya-secondary: #404040;    /* İkincil Renk - Darker Light Black */
+  --likya-accent-orange: #666666; /* Light Gray Accent */
+  --likya-accent-gold: #555555;   /* Medium Gray Accent */
+  --likya-bg-neutral: #F8F8F8;    /* Arka Plan Nötr - Slightly Darker */
+  --likya-text-dark: #1A1A1A;     /* Koyu Metin - Darker */
+  
+  /* Background and Foreground */
+  --background: var(--likya-bg-neutral);
+  --foreground: var(--likya-text-dark);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-work-sans);
+  --font-serif: var(--font-dm-serif);
+  
+  /* Likya Brand Colors */
+  --color-likya-primary: var(--likya-primary);
+  --color-likya-secondary: var(--likya-secondary);
+  --color-likya-accent-orange: var(--likya-accent-orange);
+  --color-likya-accent-gold: var(--likya-accent-gold);
+  --color-likya-bg-neutral: var(--likya-bg-neutral);
+  --color-likya-text-dark: var(--likya-text-dark);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-work-sans), 'Work Sans', sans-serif;
+  line-height: 1.6;
+}
+
+/* Typography Classes */
+.font-title {
+  font-family: var(--font-dm-serif), 'DM Serif Display', serif;
+}
+
+.font-body {
+  font-family: var(--font-work-sans), 'Work Sans', sans-serif;
+}
+
+/* Brand Color Utility Classes */
+.text-likya-primary { color: var(--likya-primary); }
+.text-likya-secondary { color: var(--likya-secondary); }
+.text-likya-accent-orange { color: var(--likya-accent-orange); }
+.text-likya-accent-gold { color: var(--likya-accent-gold); }
+
+.bg-likya-primary { background-color: var(--likya-primary); }
+.bg-likya-secondary { background-color: var(--likya-secondary); }
+.bg-likya-accent-orange { background-color: var(--likya-accent-orange); }
+.bg-likya-accent-gold { background-color: var(--likya-accent-gold); }
+.bg-likya-neutral { background-color: var(--likya-bg-neutral); }
+
+.border-likya-primary { border-color: var(--likya-primary); }
+.border-likya-secondary { border-color: var(--likya-secondary); }
+.border-likya-accent-orange { border-color: var(--likya-accent-orange); }
+.border-likya-accent-gold { border-color: var(--likya-accent-gold); }
+
+/* Custom Animations for Contact Form */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpDelay {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpDelay2 {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+.animate-slide-up-delay {
+  animation: slideUpDelay 0.6s ease-out 0.2s both;
+}
+
+.animate-slide-up-delay-2 {
+  animation: slideUpDelay2 0.6s ease-out 0.4s both;
+}
+
+/* Hover effects for form elements */
+.form-input:focus {
+  outline: none;
+  border-color: var(--likya-primary);
+  box-shadow: 0 0 0 3px rgba(44, 44, 44, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Notification animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.notification-enter {
+  animation: slideInRight 0.5s ease-out;
+}
+
+.notification-exit {
+  animation: slideOutRight 0.5s ease-in;
+} 
