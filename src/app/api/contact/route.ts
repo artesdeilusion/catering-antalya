@@ -103,10 +103,7 @@ export async function POST(req: Request) {
               <td style="padding: 8px 0; font-weight: bold; color: #374151;">👥 Misafir Sayısı:</td>
               <td style="padding: 8px 0; color: #1f2937;">${body.guestCount}</td>
             </tr>
-            <tr>
-              <td style="padding: 8px 0; font-weight: bold; color: #374151;">💰 Bütçe Aralığı:</td>
-              <td style="padding: 8px 0; color: #1f2937;">${body.budget || "-"}</td>
-            </tr>
+          
           </table>
 
           ${body.message ? `
