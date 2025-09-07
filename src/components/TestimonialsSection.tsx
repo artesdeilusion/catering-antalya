@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 interface Testimonial {
   id: number;
@@ -60,7 +60,7 @@ const testimonials: Testimonial[] = [
     name: "Zeynep Arslan",
     role: "HR Manager",
     company: "Innovation Labs",
-    content: "Şirket yılbaşı partimizde Likya Catering'i tercih ettik. Hem yemek kalitesi hem de servis hızı açısından çok memnun kaldık. Özellikle canlı pişirme istasyonları büyük ilgi gördü.",
+    content: "Şirket yılbaşı partimizde Likya Cateringi tercih ettik. Hem yemek kalitesi hem de servis hızı açısından çok memnun kaldık. Özellikle canlı pişirme istasyonları büyük ilgi gördü.",
     rating: 5,
     image: "/api/placeholder/100/100/9370DB/FFFFFF?text=ZA",
     event: "Yılbaşı Partisi"
@@ -118,8 +118,9 @@ export default function TestimonialsSection() {
                 ))}
               </div>
               
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               <blockquote className="text-xl md:text-2xl text-slate-700 leading-relaxed mb-6 max-w-4xl mx-auto">
-                "{testimonials[activeIndex].content}"
+                {testimonials[activeIndex].content}
               </blockquote>
 
               <div className="inline-block bg-likya-accent-gold text-white px-4 py-2 rounded-full text-sm font-medium mb-6">

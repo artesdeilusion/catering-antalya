@@ -98,6 +98,7 @@ export default function Navbar() {
 
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/catering_services/logo.svg" 
                 alt="Likya Catering Logo" 
