@@ -128,7 +128,7 @@ export default function WeddingCateringPage() {
             <div>
               <h2 className="text-3xl font-title text-likya-primary mb-6">Your Perfect Wedding Day</h2>
               <p className="text-lg text-likya-text-dark mb-6 font-body leading-relaxed">
-                Your wedding day is one of the most important days of your life, and we're here to make it perfect. Our Mediterranean-inspired wedding catering combines elegance, tradition, and exceptional taste to create a memorable dining experience for you and your guests.
+                Your wedding day is one of the most important days of your life, and we&apos;re here to make it perfect. Our Mediterranean-inspired wedding catering combines elegance, tradition, and exceptional taste to create a memorable dining experience for you and your guests.
               </p>
               <p className="text-lg text-likya-text-dark mb-6 font-body leading-relaxed">
                 From intimate ceremonies to grand receptions, we work closely with you to create a customized menu that reflects your personal tastes and cultural heritage. Our experienced team handles every detail, from initial consultation to the final cleanup.
@@ -270,7 +270,7 @@ export default function WeddingCateringPage() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-likya-text-dark mb-4 font-body italic">"{testimonial.content}"</p>
+                <p className="text-likya-text-dark mb-4 font-body italic">{testimonial.content}</p>
                 <div>
                   <div className="font-title text-likya-primary">{testimonial.name}</div>
                   <div className="text-sm text-gray-600 font-body">{testimonial.date}</div>

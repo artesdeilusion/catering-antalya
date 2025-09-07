@@ -9,7 +9,7 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "Antalya'da catering hizmetiniz hangi bölgeleri kapsıyor?",
+    question: "Antalya\'da catering hizmetiniz hangi bölgeleri kapsıyor?",
     answer: "Likya Catering, başta Muratpaşa, Konyaaltı ve Kepez olmak üzere; Lara, Döşemealtı, Aksu, Serik, Kemer ve çevresindeki tüm bölgelerde hizmet vermektedir. Etkinliğin büyüklüğüne göre Antalya dışına da organizasyon yapılabilmektedir."
   },
   {
@@ -49,7 +49,7 @@ const faqData: FAQItem[] = [
     answer: "2025 yılı Antalya düğün catering fiyatları kişi başı 450-1200 TL arasında değişmektedir. Fiyat; menü seçimi, davetli sayısı, lokasyon ve ek hizmetlere göre belirlenir. Detaylı fiyat bilgisi için ücretsiz teklif alabilirsiniz."
   },
   {
-    question: "Kurumsal catering hizmeti Antalya'da hangi şirketlere veriyorsunuz?",
+    question: "Kurumsal catering hizmeti Antalya\'da hangi şirketlere veriyorsunuz?",
     answer: "Antalya'da faaliyet gösteren tüm şirketlere kurumsal catering hizmeti veriyoruz. Toplantı, seminer, lansman, çalışan etkinlikleri ve günlük yemek hizmetleri sunuyoruz. Minimum 20 kişilik gruplar için hizmet verebiliyoruz."
   },
   {
@@ -69,7 +69,7 @@ const faqData: FAQItem[] = [
     answer: "Evet, HACCP gıda güvenliği sertifikamız ve tüm hijyen belgelerimiz mevcuttur. Personelimiz düzenli sağlık kontrollerinden geçer ve hijyen eğitimi alır."
   },
   {
-    question: "Antalya'da en iyi catering firması hangisi?",
+    question: "Antalya\'da en iyi catering firması hangisi?",
     answer: "Likya Catering, Antalya'da 10+ yıllık deneyimi, HACCP sertifikası, profesyonel ekibi ve kaliteli hizmet anlayışı ile öne çıkan catering firmalarından biridir. Müşteri memnuniyeti odaklı yaklaşımımız ve şeffaf fiyatlandırmamız ile tercih edilmekteyiz."
   },
   {
@@ -77,7 +77,7 @@ const faqData: FAQItem[] = [
     answer: "Düğün catering menülerimiz; klasik Türk mutfağı, Akdeniz esintisi, modern fusion, vegan/vejetaryen ve gurme menü seçenekleri içerir. Her menü çorba, ana yemek, pilav/makarna, salata ve tatlıdan oluşur. Özel isteklerinize göre menüleri kişiselleştirebiliriz."
   },
   {
-    question: "Kurumsal catering fiyatları Antalya'da ne kadar?",
+    question: "Kurumsal catering fiyatları Antalya\'da ne kadar?",
     answer: "Antalya'da kurumsal catering fiyatları kişi başı 350-500 TL arasında değişmektedir. Fiyat; menü seçimi, kişi sayısı, etkinlik türü ve ek hizmetlere göre belirlenir. Toplantı, seminer ve çalışan etkinlikleri için özel paketlerimiz mevcuttur."
   },
   

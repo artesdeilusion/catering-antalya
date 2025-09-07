@@ -134,7 +134,7 @@ export default function CorporateCateringPage() {
                 From intimate boardroom meetings to large-scale conferences, our corporate catering services are designed to enhance your business events with exceptional Mediterranean cuisine and professional service.
               </p>
               <p className="text-lg text-likya-text-dark mb-6 font-body leading-relaxed">
-                We understand that your business events are opportunities to impress clients, motivate employees, and build relationships. That's why we focus on quality, presentation, and service that reflects your company's standards.
+                We understand that your business events are opportunities to impress clients, motivate employees, and build relationships. That&apos;s why we focus on quality, presentation, and service that reflects your company&apos;s standards.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2">
@@ -219,7 +219,7 @@ export default function CorporateCateringPage() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-likya-text-dark mb-4 font-body italic">"{testimonial.content}"</p>
+                <p className="text-likya-text-dark mb-4 font-body italic">{testimonial.content}</p>
                 <div>
                   <div className="font-title text-likya-primary">{testimonial.name}</div>
                   <div className="text-sm text-gray-600 font-body">{testimonial.role}, {testimonial.company}</div>
@@ -234,7 +234,7 @@ export default function CorporateCateringPage() {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-title text-likya-primary mb-4">Pricing & Packages</h2>
+            <h2 className="text-3xl font-title text-likya-primary mb-4">Pricing &amp; Packages</h2>
             <p className="text-lg text-likya-text-dark font-body">
               Flexible pricing options to fit your budget and event requirements.
             </p>

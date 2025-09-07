@@ -1940,7 +1940,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           <h1 className="text-4xl font-title text-likya-primary mb-4">Blog Yazısı Bulunamadı</h1>
           <p className="text-likya-text-dark mb-8">Aradığınız blog yazısı mevcut değil.</p>
           <Link href="/blog" className="bg-likya-primary text-white px-6 py-3 rounded-lg hover:bg-likya-secondary transition-colors">
-            Blog'a Dön
+            Blog&apos;a Dön
           </Link>
         </div>
       </div>

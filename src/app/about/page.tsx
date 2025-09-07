@@ -57,7 +57,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-title text-likya-primary mb-6">Hikayemiz</h2>
               <p className="text-lg text-likya-text-dark mb-6 leading-relaxed font-body">
                 2008 yılında kurulan Likya Catering, kaliteli ve lezzetli yemeklerle müşterilerimizin özel anlarını unutulmaz kılmak için yola çıktı. 
-                Antalya'nın Likya bölgesinden ilham alan ismimiz, bu bölgenin zengin mutfak kültürünü modern catering hizmetleriyle buluşturuyor.
+                Antalya&apos;nın Likya bölgesinden ilham alan ismimiz, bu bölgenin zengin mutfak kültürünü modern catering hizmetleriyle buluşturuyor.
               </p>
               <p className="text-lg text-likya-text-dark mb-6 leading-relaxed font-body">
                 Bugün, düğünlerden kurumsal etkinliklere, özel günlerden toplantılara kadar geniş bir yelpazede hizmet veriyoruz. 
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <div className="bg-likya-secondary text-white p-8 rounded-lg shadow-lg h-full flex flex-col justify-center">
                 <h3 className="text-2xl font-title mb-4">Vizyonumuz</h3>
                 <p className="text-lg leading-relaxed font-body">
-                  Türkiye'nin en güvenilir ve kaliteli catering firması olmak, 
+                  Türkiye&apos;nin en güvenilir ve kaliteli catering firması olmak, 
                   sektörde standartları belirleyen öncü marka haline gelmek.
                 </p>
               </div>

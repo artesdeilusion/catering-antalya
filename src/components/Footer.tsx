@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -59,19 +60,19 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-6">Hizmetlerimiz</h4>
             <ul className="space-y-3">
               <li>
-                <a href="/blog/dugun-menu-secimi-antalya-catering-paketleri" className="text-white hover:text-gray-300 transition-colors duration-300">
+                <Link href="/blog/dugun-menu-secimi-antalya-catering-paketleri" className="text-white hover:text-gray-300 transition-colors duration-300">
                   Düğün Catering
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog/kurumsal-etkinliklerde-catering-menu-plani" className="text-white hover:text-gray-300 transition-colors duration-300">
+                <Link href="/blog/kurumsal-etkinliklerde-catering-menu-plani" className="text-white hover:text-gray-300 transition-colors duration-300">
                   Kurumsal Etkinlikler
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog/kurumsal-toplantilar-catering-cozumleri" className="text-white hover:text-gray-300 transition-colors duration-300">
+                <Link href="/blog/kurumsal-toplantilar-catering-cozumleri" className="text-white hover:text-gray-300 transition-colors duration-300">
                   Konferans & Seminer
-                </a>
+                </Link>
               </li>
                
              
@@ -83,21 +84,21 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-6">Hızlı Linkler</h4>
             <ul className="space-y-3">
               <li>
-                <a href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">
+                <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">
                   Hakkımızda
-                </a>
+                </Link>
               </li>
          
               
               <li>
-                <a href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">
+                <Link href="/blog" className="text-white hover:text-gray-300 transition-colors duration-300">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-white hover:text-gray-300 transition-colors duration-300">
+                <Link href="/contact" className="text-white hover:text-gray-300 transition-colors duration-300">
                   İletişim
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="https://www.instagram.com/likyacatering/" className="text-white hover:text-gray-300 transition-colors duration-300">

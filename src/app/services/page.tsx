@@ -229,7 +229,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-title mb-6">Ready to Plan Your Event?</h2>
           <p className="text-xl mb-8 font-body">
-            Let's discuss your catering needs and create an unforgettable experience for your guests.
+            Let&apos;s discuss your catering needs and create an unforgettable experience for your guests.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

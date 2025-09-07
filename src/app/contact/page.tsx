@@ -56,7 +56,7 @@ export default function ContactPage() {
               Konumumuz
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Antalya Konyaaltı'daki merkezimizde sizleri ağırlamaktan mutluluk duyarız. 
+              Antalya Konyaaltı&apos;daki merkezimizde sizleri ağırlamaktan mutluluk duyarız. 
             </p>
           </div>
           
