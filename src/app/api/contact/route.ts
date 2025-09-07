@@ -6,8 +6,9 @@ export async function POST(req: Request) {
     const body = await req.json();
 
     // Enhanced server validation with Turkish error messages
-    const required = ["name", "email", "phone", "eventType", "eventDate", "guestCount"];
-    const fieldNames = {
+    const required = ["name", "email", "phone", "eventType", "eventDate", "guestCount"] as const;
+    type RequiredField = typeof required[number];
+    const fieldNames: Record<RequiredField, string> = {
       name: "Ad soyad",
       email: "E-posta",
       phone: "Telefon",
@@ -17,7 +18,8 @@ export async function POST(req: Request) {
     };
 
     for (const k of required) {
-      if (!body?.[k] || body[k].trim() === '') {
+      const value = body?.[k];
+      if (!value || String(value).trim() === '') {
         return NextResponse.json({ 
           success: false, 
           error: `${fieldNames[k]} alanı gereklidir`,
